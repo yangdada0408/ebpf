@@ -9,13 +9,13 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/cilium/ebpf/link"
-	"github.com/cilium/ebpf/ringbuf"
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/yangdada0408/ebpf/link"
+	"github.com/yangdada0408/ebpf/ringbuf"
+	"github.com/yangdada0408/ebpf/rlimit"
 	"golang.org/x/sys/unix"
 )
 
-//go:generate go run github.com/cilium/ebpf/cmd/bpf2go -type event bpf ringbuffer.c -- -I../headers
+//go:generate go run github.com/yangdada0408/ebpf/cmd/bpf2go -type event bpf ringbuffer.c -- -I../headers
 
 func main() {
 	// Name of the kernel function to trace.

@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/yangdada0408/ebpf/internal/sys"
 )
 
 // TestMain runs m with sys.FD leak tracing enabled.

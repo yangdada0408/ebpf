@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/unix"
 )
 
 var ErrFlushed = errors.New("data was flushed")

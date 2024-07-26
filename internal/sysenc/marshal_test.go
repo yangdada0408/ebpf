@@ -11,7 +11,7 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/cilium/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal"
 )
 
 type testcase struct {

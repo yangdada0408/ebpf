@@ -17,12 +17,12 @@ import (
 
 	"github.com/go-quicktest/qt"
 
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/yangdada0408/ebpf/asm"
+	"github.com/yangdada0408/ebpf/btf"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/sys"
+	"github.com/yangdada0408/ebpf/internal/testutils"
+	"github.com/yangdada0408/ebpf/internal/unix"
 )
 
 func TestProgramRun(t *testing.T) {

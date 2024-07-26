@@ -8,8 +8,8 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/cilium/ebpf/link"
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/yangdada0408/ebpf/link"
+	"github.com/yangdada0408/ebpf/rlimit"
 )
 
 func main() {

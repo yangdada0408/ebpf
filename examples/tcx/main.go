@@ -13,11 +13,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/link"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/link"
 )
 
-//go:generate go run github.com/cilium/ebpf/cmd/bpf2go bpf tcx.c -- -I../headers
+//go:generate go run github.com/yangdada0408/ebpf/cmd/bpf2go bpf tcx.c -- -I../headers
 func main() {
 	if len(os.Args) < 2 {
 		log.Fatalf("Please specify a network interface")

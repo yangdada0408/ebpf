@@ -1,9 +1,9 @@
 package features
 
 import (
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/internal"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/asm"
+	"github.com/yangdada0408/ebpf/internal"
 )
 
 // HaveLargeInstructions probes the running kernel if more than 4096 instructions

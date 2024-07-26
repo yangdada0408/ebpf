@@ -3,7 +3,7 @@ package btf
 import (
 	"testing"
 
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/yangdada0408/ebpf/internal/testutils"
 )
 
 func TestHaveBTF(t *testing.T) {

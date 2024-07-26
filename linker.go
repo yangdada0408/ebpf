@@ -10,9 +10,9 @@ import (
 	"math"
 	"slices"
 
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
+	"github.com/yangdada0408/ebpf/asm"
+	"github.com/yangdada0408/ebpf/btf"
+	"github.com/yangdada0408/ebpf/internal"
 )
 
 // handles stores handle objects to avoid gc cleanup

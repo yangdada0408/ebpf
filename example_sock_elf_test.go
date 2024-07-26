@@ -11,7 +11,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/cilium/ebpf"
+	"github.com/yangdada0408/ebpf"
 )
 
 var program = [...]byte{

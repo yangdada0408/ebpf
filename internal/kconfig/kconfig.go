@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
+	"github.com/yangdada0408/ebpf/btf"
+	"github.com/yangdada0408/ebpf/internal"
 )
 
 // Find find a kconfig file on the host.

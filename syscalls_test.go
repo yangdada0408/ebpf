@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/yangdada0408/ebpf/internal/testutils"
 )
 
 func TestObjNameCharacters(t *testing.T) {

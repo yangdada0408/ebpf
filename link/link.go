@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/btf"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/sys"
 )
 
 var ErrNotSupported = internal.ErrNotSupported

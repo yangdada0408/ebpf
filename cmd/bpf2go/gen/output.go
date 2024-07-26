@@ -13,9 +13,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/cilium/ebpf/btf"
-	b2gInt "github.com/cilium/ebpf/cmd/bpf2go/internal"
-	"github.com/cilium/ebpf/internal"
+	"github.com/yangdada0408/ebpf/btf"
+	b2gInt "github.com/yangdada0408/ebpf/cmd/bpf2go/internal"
+	"github.com/yangdada0408/ebpf/internal"
 )
 
 //go:embed output.tpl

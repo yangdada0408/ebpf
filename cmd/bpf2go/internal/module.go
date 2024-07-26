@@ -6,4 +6,4 @@ package internal
 // simple instead.
 
 // The module containing the code in this repository.
-const CurrentModule = "github.com/cilium/ebpf"
+const CurrentModule = "github.com/yangdada0408/ebpf"

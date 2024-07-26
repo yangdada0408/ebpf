@@ -8,7 +8,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/yangdada0408/ebpf/internal/unix"
 )
 
 type auxvFileReader struct {

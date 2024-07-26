@@ -1,8 +1,8 @@
 package gen
 
 import (
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/btf"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/btf"
 )
 
 // CollectGlobalTypes finds all types which are used in the global scope.

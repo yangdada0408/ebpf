@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/internal/sys"
 )
 
 type RawAttachProgramOptions struct {

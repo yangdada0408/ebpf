@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/yangdada0408/ebpf/internal/unix"
 )
 
 var cgroup2Path = sync.OnceValues(func() (string, error) {

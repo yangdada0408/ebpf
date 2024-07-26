@@ -13,9 +13,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/cmd/bpf2go/gen"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/btf"
+	"github.com/yangdada0408/ebpf/cmd/bpf2go/gen"
 )
 
 const helpText = `Usage: %[1]s [options] <ident> <source file> [-- <C flags>]

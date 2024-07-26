@@ -8,11 +8,11 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/tracefs"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/sys"
+	"github.com/yangdada0408/ebpf/internal/tracefs"
+	"github.com/yangdada0408/ebpf/internal/unix"
 )
 
 // KprobeOptions defines additional parameters that will be used

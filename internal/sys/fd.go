@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/yangdada0408/ebpf/internal/unix"
 )
 
 var ErrClosedFd = unix.EBADF

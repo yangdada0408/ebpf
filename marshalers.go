@@ -8,9 +8,9 @@ import (
 	"slices"
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/sysenc"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/sys"
+	"github.com/yangdada0408/ebpf/internal/sysenc"
 )
 
 // marshalMapSyscallInput converts an arbitrary value into a pointer suitable

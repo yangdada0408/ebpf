@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/epoll"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/internal/epoll"
+	"github.com/yangdada0408/ebpf/internal/unix"
 )
 
 var (

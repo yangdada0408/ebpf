@@ -3,7 +3,7 @@ package sysenc
 import (
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/yangdada0408/ebpf/internal/sys"
 )
 
 type Buffer struct {

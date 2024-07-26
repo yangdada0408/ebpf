@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cilium/ebpf/internal/unix"
 	"github.com/go-quicktest/qt"
+	"github.com/yangdada0408/ebpf/internal/unix"
 )
 
 func TestPoller(t *testing.T) {

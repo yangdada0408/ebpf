@@ -3,8 +3,8 @@ package link
 import (
 	"fmt"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/internal/sys"
 )
 
 const anchorFlags = sys.BPF_F_REPLACE |

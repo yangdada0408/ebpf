@@ -7,9 +7,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/tracefs"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/tracefs"
 )
 
 var (

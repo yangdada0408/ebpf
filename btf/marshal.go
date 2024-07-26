@@ -10,7 +10,7 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/cilium/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal"
 )
 
 type MarshalOptions struct {

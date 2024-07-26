@@ -23,12 +23,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/cilium/ebpf/link"
-	"github.com/cilium/ebpf/ringbuf"
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/yangdada0408/ebpf/link"
+	"github.com/yangdada0408/ebpf/ringbuf"
+	"github.com/yangdada0408/ebpf/rlimit"
 )
 
-//go:generate go run github.com/cilium/ebpf/cmd/bpf2go -type event bpf fentry.c -- -I../headers
+//go:generate go run github.com/yangdada0408/ebpf/cmd/bpf2go -type event bpf fentry.c -- -I../headers
 
 func main() {
 	stopper := make(chan os.Signal, 1)

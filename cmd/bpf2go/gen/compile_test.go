@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/yangdada0408/ebpf/internal/testutils"
 )
 
 const minimalSocketFilter = `__attribute__((section("socket"), used)) int main() { return 0; }`

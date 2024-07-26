@@ -5,8 +5,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/internal/testutils"
 
 	"github.com/go-quicktest/qt"
 )

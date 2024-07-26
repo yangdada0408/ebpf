@@ -7,9 +7,9 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/testutils"
 	"github.com/go-quicktest/qt"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/internal/testutils"
 )
 
 func TestUprobeMulti(t *testing.T) {

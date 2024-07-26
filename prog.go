@@ -12,13 +12,13 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/kallsyms"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/sysenc"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/yangdada0408/ebpf/asm"
+	"github.com/yangdada0408/ebpf/btf"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/kallsyms"
+	"github.com/yangdada0408/ebpf/internal/sys"
+	"github.com/yangdada0408/ebpf/internal/sysenc"
+	"github.com/yangdada0408/ebpf/internal/unix"
 )
 
 // ErrNotSupported is returned whenever the kernel doesn't support a feature.

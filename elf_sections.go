@@ -4,7 +4,7 @@ package ebpf
 
 // Code in this file is derived from libbpf, available under BSD-2-Clause.
 
-import "github.com/cilium/ebpf/internal/sys"
+import "github.com/yangdada0408/ebpf/internal/sys"
 
 var elfSectionDefs = []libbpfElfSectionDef{
 	{"socket", sys.BPF_PROG_TYPE_SOCKET_FILTER, 0, _SEC_NONE},

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"math"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/sys"
+	"github.com/yangdada0408/ebpf/internal/unix"
 )
 
 // haveBTF attempts to load a BTF blob containing an Int. It should pass on any

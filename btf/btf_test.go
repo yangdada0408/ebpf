@@ -15,8 +15,8 @@ import (
 
 	"github.com/go-quicktest/qt"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/testutils"
 )
 
 func vmlinuxSpec(tb testing.TB) *Spec {

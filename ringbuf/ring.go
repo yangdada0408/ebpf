@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/unix"
 )
 
 type ringbufEventRing struct {

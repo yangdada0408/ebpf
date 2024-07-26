@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/yangdada0408/ebpf/btf"
+	"github.com/yangdada0408/ebpf/internal/testutils"
 )
 
 func TestHandleIterator(t *testing.T) {

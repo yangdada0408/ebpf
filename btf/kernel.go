@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/kallsyms"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/kallsyms"
 )
 
 var kernelBTF = struct {

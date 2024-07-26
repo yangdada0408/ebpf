@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/yangdada0408/ebpf"
+	"github.com/yangdada0408/ebpf/internal/sys"
 )
 
 // QueryOptions defines additional parameters when querying for programs.

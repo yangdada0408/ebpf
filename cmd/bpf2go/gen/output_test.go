@@ -8,8 +8,8 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/cmd/bpf2go/internal"
+	"github.com/yangdada0408/ebpf/btf"
+	"github.com/yangdada0408/ebpf/cmd/bpf2go/internal"
 )
 
 func TestOrderTypes(t *testing.T) {

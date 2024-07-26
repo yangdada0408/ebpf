@@ -12,10 +12,10 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/yangdada0408/ebpf/btf"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/testutils"
+	"github.com/yangdada0408/ebpf/internal/unix"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
@@ -971,7 +971,7 @@ func TestLibBPFCompat(t *testing.T) {
 			// Error message like
 			//    fixup for CORERelocation(local_type_id, Struct:"bin_data"[0],
 			//    local_id=27): invalid immediate 31, expected 27 (fixup: local_type_id=27->1)
-			// See https://github.com/cilium/ebpf/issues/739
+			// See https://github.com/yangdada0408/ebpf/issues/739
 			t.Skip("Skipping due to bug in libbpf type deduplication")
 		case "test_usdt", "test_urandom_usdt", "test_usdt_multispec":
 			t.Skip("Skipping due to missing support for usdt.bpf.h")

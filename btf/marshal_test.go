@@ -9,8 +9,8 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/testutils"
 )
 
 func TestBuilderMarshal(t *testing.T) {

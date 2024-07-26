@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/kconfig"
-	"github.com/cilium/ebpf/internal/sysenc"
+	"github.com/yangdada0408/ebpf/asm"
+	"github.com/yangdada0408/ebpf/btf"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/kconfig"
+	"github.com/yangdada0408/ebpf/internal/sysenc"
 )
 
 // CollectionOptions control loading a collection into the kernel.
@@ -444,7 +444,9 @@ func (cl *collectionLoader) close() {
 		p.Close()
 	}
 }
+
 var MapSizeConfig = make(map[string]uint32)
+
 func (cl *collectionLoader) loadMap(mapName string) (*Map, error) {
 	if m := cl.maps[mapName]; m != nil {
 		return m, nil

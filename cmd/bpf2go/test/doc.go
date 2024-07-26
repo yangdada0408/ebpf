@@ -2,4 +2,4 @@
 // specific API.
 package test
 
-//go:generate go run github.com/cilium/ebpf/cmd/bpf2go test ../testdata/minimal.c
+//go:generate go run github.com/yangdada0408/ebpf/cmd/bpf2go test ../testdata/minimal.c

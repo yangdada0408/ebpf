@@ -9,9 +9,9 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/yangdada0408/ebpf/asm"
+	"github.com/yangdada0408/ebpf/internal"
+	"github.com/yangdada0408/ebpf/internal/sys"
 )
 
 // Mirrors MAX_RESOLVE_DEPTH in libbpf.

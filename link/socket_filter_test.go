@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/cilium/ebpf"
+	"github.com/yangdada0408/ebpf"
 )
 
 func TestSocketFilterAttach(t *testing.T) {
