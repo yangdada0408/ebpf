@@ -444,7 +444,7 @@ func (cl *collectionLoader) close() {
 		p.Close()
 	}
 }
-
+var MapSizeConfig = make(map[string]uint32)
 func (cl *collectionLoader) loadMap(mapName string) (*Map, error) {
 	if m := cl.maps[mapName]; m != nil {
 		return m, nil
@@ -464,6 +464,19 @@ func (cl *collectionLoader) loadMap(mapName string) (*Map, error) {
 
 		cl.maps[mapName] = m
 		return m, nil
+	}
+
+	fmt.Printf("map name =====> %s \n", mapName)
+	//todo resize map size base on MapSizeConfig setting
+	for k, v := range MapSizeConfig {
+
+		if strings.Contains(mapName, k) {
+
+			if v > 0 {
+				fmt.Printf("resize map size: origin size ==> %d change size ==> %d \n", mapSpec.MaxEntries, v)
+				mapSpec.MaxEntries = v
+			}
+		}
 	}
 
 	m, err := newMapWithOptions(mapSpec, cl.opts.Maps)
